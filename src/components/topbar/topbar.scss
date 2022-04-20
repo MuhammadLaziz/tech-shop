@@ -1,0 +1,118 @@
+.first_box {
+  width: 100%;
+  margin: 0 auto;
+
+  .first-list {
+    width: 1296px;
+    margin: 0 auto;
+    padding: 11px 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .first_item {
+      display: flex;
+      align-items: center;
+
+      span {
+        margin-right: 32px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #5c596d;
+      }
+    }
+
+    .second_item {
+      display: flex;
+      align-items: center;
+
+      .contact {
+        display: flex;
+        align-items: center;
+        margin-left: 32px;
+
+        img {
+          width: 15px;
+          height: 15px;
+          margin-right: 6px;
+        }
+
+        span {
+          font-weight: 400;
+          font-size: 14px;
+          color: #5c596d;
+        }
+      }
+    }
+  }
+}
+
+.second_box{
+    width: 1296px;
+    margin: 0 auto;
+
+    .second_list{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        padding: 12px 0;
+
+        .second_item-2{
+            .second_item-form{
+                display: flex;
+                align-items: center;
+                background: #F7F7F7;
+                border-radius: 4px;
+                padding: 15px;
+
+                input{
+                    width: 677px;
+                    border: none;
+                    background: #F7F7F7;
+                    outline: none;
+                    margin-left: 15px;
+                }
+            }
+        }
+
+        .second_item-3{
+            display: flex;
+            align-items: center;
+
+            .second_item-box{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin-left: 24px;
+            }
+        }
+    }
+}
+
+.third_box{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #F8F8F8;
+    margin-bottom: 32px;
+
+    .third_list{
+        width: 1296px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+
+        .third_item{
+            span{
+                font-weight: 400;
+                font-size: 15px;
+                color: #5c596d;
+            }
+        }
+    }
+}

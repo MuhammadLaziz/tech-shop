@@ -1,0 +1,72 @@
+.products{
+    width: 1296px;
+    margin: 0 auto;
+
+    .product_list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+
+        .product_item{
+            width: 300px;
+            padding: 25px;
+            box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.08);
+            border-radius: 8px;
+
+            .product-name{
+                margin-top: 17px;
+                font-weight: 400;
+                font-size: 16px;
+            }
+            
+            .price{
+                margin-top: 16px;
+                font-weight: 600;
+                font-size: 20px;
+                margin-bottom: 8px;
+            }
+
+            .debt_price{
+                font-weight: 400;
+                font-size: 16px;
+            }
+
+            .stars{
+                display: flex;
+                align-items: center;
+                margin: 15px 0;
+            }
+
+            .btn_control{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                button {
+                    display: flex;
+                    align-items: center;
+                    padding: 11px 14px;
+                    background-color: #1B5BF7;
+                    color: #fff;
+                    border-radius: 4px;
+                    border: none;
+                    outline: none;
+
+                    img{
+                        margin-right: 10px;
+                    }
+                }
+
+                .mark{
+                    display: flex;
+                    align-items: center;
+
+                    img{
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

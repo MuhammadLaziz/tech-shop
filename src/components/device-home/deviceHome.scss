@@ -1,0 +1,30 @@
+.category{
+    width: 1290px;
+    margin: 0 auto;
+    margin-bottom: 96px;
+
+    .category_list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+
+        .category_item{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 16px;
+            background: #F7F7F7;
+            border-radius: 8px;
+
+            img{
+                margin-bottom: 16px;
+            }
+
+            span{
+                font-weight: 700;
+                font-size: 20px;
+            }
+        }
+    }
+}
