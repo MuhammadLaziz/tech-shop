@@ -1,4 +1,4 @@
-import './products.scss'
+import './costumerChoice.scss'
 import first from '../../Assets/image/products/1.png'
 import trash from '../../Assets/image/products/trash.png'
 import sycle from '../../Assets/image/topbar/sync_alt.png'

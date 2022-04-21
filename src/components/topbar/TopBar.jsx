@@ -3,6 +3,7 @@ import Phone from "../../Assets/image//topbar/phone.png";
 import Location from "../../Assets/image/topbar/location_on.png";
 import Russia from "../../Assets/image/topbar/russia.png";
 import Logo from "../../Assets/image/topbar/logo.png";
+import bottom from '../../Assets/image/topbar/bottom.png'
 import { SearchIcon, GalleryIcon } from "../../Assets/icons/icons";
 import ShoppingCart from "../../Assets/image/topbar/shopping_cart.png";
 import Heart from "../../Assets/image/topbar/heart.png";
@@ -31,6 +32,7 @@ const TopBar = () => {
             <div className="contact" style={{ cursor: "pointer" }}>
               <img src={Russia} alt="" />
               <span>Рус</span>
+              <img src={bottom} alt="" className="bottom"/>
             </div>
           </li>
         </ul>

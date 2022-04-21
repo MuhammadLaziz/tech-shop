@@ -1,0 +1,57 @@
+.brends{
+    width: 1296px;
+    margin: 0 auto;
+
+    .brends_top{
+        width: 100%;
+        margin-bottom: 40px;
+
+        .top_list{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .top_item{
+                padding: 8px 40px;
+                background-color: #F6F6F6;
+                border-radius: 4px;
+                transition: all 0.5s;
+
+                &:hover{
+                    color: #1B5BF7;
+                    border: 1px solid #1B5BF7;
+                }
+
+                p{
+                    color: #5C596D;
+
+                    &:hover{
+                        color: #1B5BF7;
+                    }
+                }
+            }
+        }
+    }
+
+    .brends_bottom{
+        width: 100%;
+        margin-bottom: 75px;
+
+        .bottom_list{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            list-style: none;
+            flex-wrap: wrap;
+
+            .bottom_item{
+                width: 206px;
+                padding: 11px 55px;
+                border: 1px solid #EAE9EF;
+                border-radius: 4px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
